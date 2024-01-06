@@ -25,6 +25,9 @@ Let's try again, {name}!''')
             print(f''''yes' is wrong answer ;(. Correct answer was 'no'.
 Let's try again, {name}!''')
             break
+        else:
+            print(f'"{user_answer}" is wrong answer ;(. Correct answer only "yes" or "no"')
+            break
         if game_round == GAME_ATTEMPT:
             print(f'Congratulations, {name}!')
         game_round += 1
