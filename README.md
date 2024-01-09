@@ -22,3 +22,22 @@ Question: 15
 ```
 
 [![asciicast](https://asciinema.org/a/MkagO9MMiIHmLYyb1Jadlx5tE.svg)](https://asciinema.org/a/MkagO9MMiIHmLYyb1Jadlx5tE)
+
+### :game_die: ***Brain Calc***
+`brain-calc`
+
+Игроку предлагается математическое выражение, например, 35 + 16, которое нужно вычислить и записать правильный ответ.
+#### Пример работы:
+```bash
+What is the result of the expression?
+Question: 35 + 16
+>> Your answer: 51
+Correct!
+
+Question: 25 * 7
+Your answer: 145
+'145' is wrong answer ;(. Correct answer was '175'.
+Let's try again, Xequrt!
+```
+
+[![asciicast](https://asciinema.org/a/xmLIdWb1UDXqphmy4TWfppDov.svg)](https://asciinema.org/a/xmLIdWb1UDXqphmy4TWfppDov)
