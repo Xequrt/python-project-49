@@ -17,16 +17,9 @@ def run_game(rules, game_data):
         user_answer = prompt.string('Your answer: ')
         if result_game == user_answer.lower():
             print('Correct!')
-        elif result_game != user_answer.lower() and user_answer.lower() == 'no':
-            print(f''''no' is wrong answer ;(. Correct answer was 'yes'.
-Let's try again, {name}!''')
-            break
-        elif result_game != user_answer.lower() and user_answer.lower() == 'yes':
-            print(f''''yes' is wrong answer ;(. Correct answer was 'no'.
-Let's try again, {name}!''')
-            break
         else:
-            print(f'"{user_answer}" is wrong answer ;(. Correct answer only "yes" or "no"')
+            print(f''''{user_answer}' is wrong answer ;(. Correct answer was '{result_game}'.
+Let's try again, {name}!''')
             break
         if game_round == GAME_ATTEMPT:
             print(f'Congratulations, {name}!')
