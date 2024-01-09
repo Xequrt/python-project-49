@@ -36,8 +36,27 @@ Correct!
 
 Question: 25 * 7
 Your answer: 145
-'145' is wrong answer ;(. Correct answer was '175'.
+>> '145' is wrong answer ;(. Correct answer was '175'.
 Let's try again, Xequrt!
 ```
 
 [![asciicast](https://asciinema.org/a/xmLIdWb1UDXqphmy4TWfppDov.svg)](https://asciinema.org/a/xmLIdWb1UDXqphmy4TWfppDov)
+
+### :game_die: ***Brain GCD***
+`brain-gcd`
+
+Игроку показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+#### Пример работы:
+```bash
+What is the result of the expression?
+Question: 25 50
+>> Your answer: 25
+Correct!
+
+Question: 37 3
+>> Your answer: 2
+'2' is wrong answer ;(. Correct answer was '1'.
+Let's try again, Xequrt!
+```
+
+[![asciicast](https://asciinema.org/a/tjMPAuYn2XsEGuIucwe7It0Hy.svg)](https://asciinema.org/a/tjMPAuYn2XsEGuIucwe7It0Hy)
