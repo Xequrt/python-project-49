@@ -1,6 +1,4 @@
-import random
 from random import randint
-import math
 
 RULES_GCD = 'Find the greatest common divisor of given numbers.'
 
@@ -19,6 +17,6 @@ def game_data():
         else:
             roll_number_two = roll_number_two % roll_number_one
 
-    result_game = str(roll_number_one + roll_number_two)
+    result_game = roll_number_one + roll_number_two
 
     return computer_question, result_game
