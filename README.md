@@ -60,3 +60,22 @@ Let's try again, Xequrt!
 ```
 
 [![asciicast](https://asciinema.org/a/tjMPAuYn2XsEGuIucwe7It0Hy.svg)](https://asciinema.org/a/tjMPAuYn2XsEGuIucwe7It0Hy)
+
+### :game_die: ***Brain Progression***
+`brain-progression`
+
+Игроку показывется ряд чисел, который образует арифметическую прогрессию, заменив любое из чисел двумя точками. Игрок должен определить это число.
+#### Пример работы:
+```bash
+What number is missing in the progression?
+Question: [23, 28, 33, 38, 43, 48, 53, 58, '..', 68]
+>> Your answer: 63
+Correct!
+
+Question: ['..', 11, 14, 17, 20, 23, 26, 29, 32, 35]
+>> Your answer: 9
+'9' is wrong answer ;(. Correct answer was '8'.
+Let's try again, Xequrt!
+```
+
+[![asciicast](https://asciinema.org/a/VQTD3SV9swDwHW5UcnkPZe2Rv.svg)](https://asciinema.org/a/VQTD3SV9swDwHW5UcnkPZe2Rv)
