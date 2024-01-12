@@ -15,7 +15,7 @@ def run_game(rules, game_data):
         computer_question, result_game = game_data()
         print(f'Question: {computer_question}')
         user_answer = prompt.string('Your answer: ')
-        if result_game == user_answer.lower():
+        if str(result_game) == user_answer.lower():
             print('Correct!')
         else:
             print(f''''{user_answer}' is wrong answer ;(. Correct answer was '{result_game}'.
