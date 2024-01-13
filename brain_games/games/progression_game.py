@@ -1,6 +1,4 @@
-import random
-from random import randint, choice
-import math
+from random import randint
 
 RULES_PROGRESSION = 'What number is missing in the progression?'
 
@@ -17,7 +15,7 @@ def game_data():
         roll_an += roll_d
 
     # Генерация случайного индекса
-    index = random.randint(0, len(computer_question) - 1)
+    index = randint(0, len(computer_question) - 1)
     result_game = computer_question[index]
     computer_question[index] = ".."
 
