@@ -79,3 +79,22 @@ Let's try again, Xequrt!
 ```
 
 [![asciicast](https://asciinema.org/a/VQTD3SV9swDwHW5UcnkPZe2Rv.svg)](https://asciinema.org/a/VQTD3SV9swDwHW5UcnkPZe2Rv)
+
+### :game_die: ***Brain Prime***
+`brain-prime
+
+Игроку предлагается определить простое число или нет, ответив 'yes' или 'no' соответственно.
+#### Пример работы:
+```bash
+Answer "yes" if given number is prime. Otherwise answer "no".
+Question: 6
+>> Your answer: no
+Correct!
+
+Question: 87
+>> Your answer: yes
+'yes' is wrong answer ;(. Correct answer was 'no'.
+Let's try again, Xequrt!
+```
+
+[![asciicast](https://asciinema.org/a/w6LUWBHjU76vDVpuldLNr8gKl.svg)](https://asciinema.org/a/w6LUWBHjU76vDVpuldLNr8gKl)
