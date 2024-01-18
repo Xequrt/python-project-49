@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from brain_games.body_game.body_game import run_game
+from brain_games.engine import run_game
 from brain_games.games.calc_game import RULES_CALC, game_data
 
 

@@ -4,6 +4,26 @@
 ### Maintainability Badge
 [![Maintainability](https://api.codeclimate.com/v1/badges/112295c7babf37b3d083/maintainability)](https://codeclimate.com/github/Xequrt/python-project-49/maintainability)
 
+### Описание.
+___
+***"Brain Games"*** - набор из 5-ти игр для прокачки мозгов. В каждой игре задаются вопросы, на которые необходимо верно ответить 3 раза. В случае провала, Вам предлагается сыграть снова и игра завершается.
+
+### Игры:
+#### ***Brain Even*** - Ответьте "да", если число четное, в противном случае ответьте "нет".
+#### ***Brain Calc*** - Какой результат этого выражения?
+#### ***Brain GCD*** - Найдите наибольший общий делитель заданных чисел?
+#### ***Brain Progression*** - Какого числа не хватает в прогрессии?
+#### ***Brain Prime*** - Ответьте "да", если данное число простое. В противном случае ответьте "нет".
+
+#### Вы можете вызвать их с помощью простых команд:
+```bash
+>> brain-even
+>> brain-calc
+>> brain-gcd
+>> brain-progression
+>> brain-prime
+```
+
 ### :game_die: ***Brain Even***
 `brain-even`
 
@@ -21,7 +41,7 @@ Question: 15
 'yes' is wrong answer ;(. Correct answer was 'no'.
 ```
 
-[![asciicast](https://asciinema.org/a/MkagO9MMiIHmLYyb1Jadlx5tE.svg)](https://asciinema.org/a/MkagO9MMiIHmLYyb1Jadlx5tE)
+[![asciicast](https://asciinema.org/a/631981.svg)](https://asciinema.org/a/631981)
 
 ### :game_die: ***Brain Calc***
 `brain-calc`
@@ -40,7 +60,7 @@ Your answer: 145
 Let's try again, Xequrt!
 ```
 
-[![asciicast](https://asciinema.org/a/xmLIdWb1UDXqphmy4TWfppDov.svg)](https://asciinema.org/a/xmLIdWb1UDXqphmy4TWfppDov)
+[![asciicast](https://asciinema.org/a/631980.svg)](https://asciinema.org/a/631980)
 
 ### :game_die: ***Brain GCD***
 `brain-gcd`
@@ -48,7 +68,7 @@ Let's try again, Xequrt!
 Игроку показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
 #### Пример работы:
 ```bash
-What is the result of the expression?
+Find the greatest common divisor of given numbers.
 Question: 25 50
 >> Your answer: 25
 Correct!
@@ -59,7 +79,7 @@ Question: 37 3
 Let's try again, Xequrt!
 ```
 
-[![asciicast](https://asciinema.org/a/tjMPAuYn2XsEGuIucwe7It0Hy.svg)](https://asciinema.org/a/tjMPAuYn2XsEGuIucwe7It0Hy)
+[![asciicast](https://asciinema.org/a/631972.svg)](https://asciinema.org/a/631972)
 
 ### :game_die: ***Brain Progression***
 `brain-progression`
@@ -78,7 +98,7 @@ Question: ['..', 11, 14, 17, 20, 23, 26, 29, 32, 35]
 Let's try again, Xequrt!
 ```
 
-[![asciicast](https://asciinema.org/a/VQTD3SV9swDwHW5UcnkPZe2Rv.svg)](https://asciinema.org/a/VQTD3SV9swDwHW5UcnkPZe2Rv)
+[![asciicast](https://asciinema.org/a/631086.svg)](https://asciinema.org/a/631086)
 
 ### :game_die: ***Brain Prime***
 `brain-prime
@@ -97,4 +117,4 @@ Question: 87
 Let's try again, Xequrt!
 ```
 
-[![asciicast](https://asciinema.org/a/w6LUWBHjU76vDVpuldLNr8gKl.svg)](https://asciinema.org/a/w6LUWBHjU76vDVpuldLNr8gKl)
+[![asciicast](https://asciinema.org/a/631196.svg)](https://asciinema.org/a/631196)
