@@ -16,7 +16,7 @@ def game_data():
     operator_choice = choice(expression_operators)
 
     # Создание выражения и вычисление строки, как кода.
-    computer_question = f'{roll_number_one}{operator_choice}{roll_number_two}'
+    computer_question = f'{roll_number_one} {operator_choice} {roll_number_two}'
     if operator_choice == '+':
         result_game = add(roll_number_one, roll_number_two)
     elif operator_choice == '-':
