@@ -3,7 +3,7 @@ from random import randint
 RULES_PRIME = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def game_data():
+def get_game_data():
     # Генерация простого числа
     computer_question = randint(1, 100)
     if prime_check(computer_question):
