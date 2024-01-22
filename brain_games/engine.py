@@ -17,7 +17,7 @@ def run_game(rules, get_game_data):
         if str(result_game) != user_answer.lower():
             print(f"'{user_answer}' is wrong answer ;(. "
                   f"Correct answer was '{result_game}'\n"
-                  f"Let's try again, '{name}!'")
+                  f"Let's try again, {name}!")
             break
         print('Correct!')
     else:
